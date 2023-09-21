@@ -40,5 +40,5 @@ jobs:
         with:
           token: ${{ secrets.BOT_ACCESS_TOKEN }}
           is-oauth-token: true
-          issue-message: "Hai 👋, thanks for opening your first issue. We welcome you to the community!👏"
-          pr-message: "Hello 👋, thanks for opening your first Pull Request. Someone will review it soon.👏"
+          issue-message: "Hai 👋, thanks for opening your first issue. We welcome you to the community!🚀"
+          pr-message: "Hello 👋, thanks for opening your first Pull Request. Someone will review it soon.🚀"
