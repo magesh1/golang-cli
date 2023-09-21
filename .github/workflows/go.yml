@@ -23,5 +23,5 @@ jobs:
       - name: Revive Action
         uses: morphy2k/revive-action@v2.5.3
 
-      - name: Go Build Action
-        uses: calxus/go-build-action@latest
+      - name: Go vulnerabilities Action
+        uses: opzkit/govulncheck-action@v1.0.1
