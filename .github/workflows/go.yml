@@ -25,3 +25,8 @@ jobs:
 
       - name: Go vulnerabilities Action
         uses: opzkit/govulncheck-action@v1.0.1
+
+      - name: Action Gophers
+        uses: sspaink/action-gophers@1.0
+        with:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
