@@ -22,3 +22,8 @@ jobs:
 
       - name: Check out code into the Go module directory
         uses: actions/checkout@v2
+
+      - name: Golang Formatter
+        uses: sladyn98/auto-go-format@master
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
