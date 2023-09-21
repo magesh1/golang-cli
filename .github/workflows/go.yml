@@ -23,10 +23,10 @@ jobs:
       - name: Revive Action
         uses: morphy2k/revive-action@v2.5.3
       
-      uses: gtadam/go-build-action@v1
-      with:
-        IMAGE_NAMESPACE: 'demo'
-        IMAGE_NAME: 'go-build'
-        IMAGE_VERSION: 'latest'
-        DOCKER_USERNAME: 'docker'
-        DOCKER_PASSWORD: '123456'
+         uses: gtadam/go-build-action@v1
+         with:
+          IMAGE_NAMESPACE: 'demo'
+          IMAGE_NAME: 'go-build'
+          IMAGE_VERSION: 'latest'
+          DOCKER_USERNAME: 'docker'
+          DOCKER_PASSWORD: '123456'
